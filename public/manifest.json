@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "个人爱收藏",
+  "version": "1.0",
+  "description": "快速保存和管理您的书签",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

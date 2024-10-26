@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人爱收藏</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="app">
+    <h1>个人爱收藏</h1>
+    <form id="bookmarkForm">
+      <input type="text" id="name" placeholder="书签名称" required>
+      <input type="url" id="url" placeholder="网址" required>
+      <input type="text" id="tags" placeholder="标签（用逗号分隔）">
+      <button type="submit">保存书签</button>
+    </form>
+    <div id="message"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
